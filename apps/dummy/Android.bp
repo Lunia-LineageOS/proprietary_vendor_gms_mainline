@@ -1,0 +1,134 @@
+android_app {
+    name: "SdkSandboxGoogle",
+    sdk_version: "system_current",
+}
+
+android_app {
+    name: "AdServicesApkGoogle",
+    sdk_version: "system_current",
+}
+
+android_app {
+    name: "com.google.android.appsearch.apk",
+    sdk_version: "system_current",
+}
+
+android_app {
+    name: "BluetoothGoogle",
+    sdk_version: "system_current",
+}
+
+android_app {
+    name: "GoogleCellBroadcastApp",
+    sdk_version: "system_current",
+}
+
+android_app {
+    name: "GoogleCellBroadcastServiceModule",
+    sdk_version: "system_current",
+}
+
+android_app {
+    name: "GoogleExtServices",
+    sdk_version: "system_current",
+}
+
+android_app {
+    name: "HealthConnectBackupRestoreGoogle",
+    sdk_version: "system_current",
+}
+
+android_app {
+    name: "HealthConnectControllerGoogle",
+    sdk_version: "system_current",
+}
+
+android_app {
+    name: "MediaProviderGoogle",
+    sdk_version: "system_current",
+}
+
+android_app {
+    name: "PhotopickerGoogle",
+    sdk_version: "system_current",
+}
+
+android_app {
+    name: "NfcNciApexGoogle",
+    sdk_version: "system_current",
+}
+
+android_app {
+    name: "NfcNciApexMigrationGoogle",
+    sdk_version: "system_current",
+}
+
+android_app {
+    name: "FederatedComputeGoogle",
+    sdk_version: "system_current",
+}
+
+android_app {
+    name: "OnDevicePersonalizationGoogle",
+    sdk_version: "system_current",
+}
+
+android_app {
+    name: "GooglePermissionController",
+    sdk_version: "system_current",
+}
+
+android_app {
+    name: "GoogleSafetyCenterResources",
+    sdk_version: "system_current",
+}
+
+android_app {
+    name: "rkpdapp.google",
+    sdk_version: "system_current",
+}
+
+android_app {
+    name: "TelecomResourcesGoogle",
+    sdk_version: "system_current",
+}
+
+android_app {
+    name: "TelecomUiGoogle",
+    sdk_version: "system_current",
+}
+
+android_app {
+    name: "ServiceConnectivityResourcesGoogle",
+    sdk_version: "system_current",
+}
+
+android_app {
+    name: "TetheringGoogle",
+    sdk_version: "system_current",
+}
+
+android_app {
+    name: "ServiceUwbResourcesGoogle",
+    sdk_version: "system_current",
+}
+
+android_app {
+    name: "WebAppServiceGoogle",
+    sdk_version: "system_current",
+}
+
+android_app {
+    name: "OsuLoginGoogle",
+    sdk_version: "system_current",
+}
+
+android_app {
+    name: "ServiceWifiResourcesGoogle",
+    sdk_version: "system_current",
+}
+
+android_app {
+    name: "WifiDialogGoogle",
+    sdk_version: "system_current",
+}

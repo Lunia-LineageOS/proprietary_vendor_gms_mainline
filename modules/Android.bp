@@ -1,0 +1,565 @@
+prebuilt_apex {
+    name: "com.google.android.adbd",
+    apex_name: "com.android.adbd",
+    owner: "google",
+    src: "com.google.android.adbd.apex",
+    overrides: ["com.android.adbd"],
+}
+
+prebuilt_apex {
+    name: "com.google.android.adservices",
+    apex_name: "com.android.adservices",
+    apps: [
+        "SdkSandboxGoogle",
+        "AdServicesApkGoogle",
+    ],
+    owner: "google",
+    src: "com.google.android.adservices.apex",
+    overrides: ["com.android.adservices"],
+    exported_bootclasspath_fragments: ["com.android.adservices-bootclasspath-fragment"],
+    exported_systemserverclasspath_fragments: ["com.android.adservices-systemserverclasspath-fragment"],
+}
+
+prebuilt_apex {
+    name: "com.google.android.appsearch",
+    apex_name: "com.android.appsearch",
+    apps: ["com.google.android.appsearch.apk"],
+    owner: "google",
+    src: "com.google.android.appsearch.apex",
+    overrides: ["com.android.appsearch"],
+    exported_bootclasspath_fragments: ["com.android.appsearch-bootclasspath-fragment"],
+    exported_systemserverclasspath_fragments: ["com.android.appsearch-systemserverclasspath-fragment"],
+}
+
+prebuilt_apex {
+    name: "com.google.android.art",
+    apex_name: "com.android.art",
+    owner: "google",
+    src: "com.google.android.art.apex",
+    overrides: ["com.android.art"],
+    exported_bootclasspath_fragments: ["art-bootclasspath-fragment"],
+    exported_systemserverclasspath_fragments: ["art-systemserverclasspath-fragment"],
+}
+
+prebuilt_apex {
+    name: "com.google.android.bt",
+    apex_name: "com.android.bt",
+    apps: ["BluetoothGoogle"],
+    owner: "google",
+    src: "com.google.android.bt.apex",
+    overrides: ["com.android.bt"],
+    exported_bootclasspath_fragments: ["com.android.bt-bootclasspath-fragment"],
+    exported_systemserverclasspath_fragments: ["com.android.bt-systemserverclasspath-fragment"],
+}
+
+prebuilt_apex {
+    name: "com.google.android.cellbroadcast",
+    apex_name: "com.android.cellbroadcast",
+    apps: [
+        "GoogleCellBroadcastApp",
+        "GoogleCellBroadcastServiceModule",
+    ],
+    owner: "google",
+    src: "com.google.android.cellbroadcast.apex",
+    overrides: ["com.android.cellbroadcast"],
+}
+
+prebuilt_apex {
+    name: "com.google.android.configinfrastructure",
+    apex_name: "com.android.configinfrastructure",
+    owner: "google",
+    src: "com.google.android.configinfrastructure.apex",
+    overrides: ["com.android.configinfrastructure"],
+    exported_bootclasspath_fragments: ["com.android.configinfrastructure-bootclasspath-fragment"],
+    exported_systemserverclasspath_fragments: ["com.android.configinfrastructure-systemserverclasspath-fragment"],
+}
+
+prebuilt_apex {
+    name: "com.google.android.conscrypt",
+    apex_name: "com.android.conscrypt",
+    owner: "google",
+    src: "com.google.android.conscrypt.apex",
+    overrides: ["com.android.conscrypt"],
+    exported_bootclasspath_fragments: ["com.android.conscrypt-bootclasspath-fragment"],
+}
+
+prebuilt_apex {
+    name: "com.google.android.crashrecovery",
+    apex_name: "com.android.crashrecovery",
+    owner: "google",
+    src: "com.google.android.crashrecovery.apex",
+    overrides: ["com.android.crashrecovery"],
+    exported_bootclasspath_fragments: ["com.android.crashrecovery-bootclasspath-fragment"],
+    exported_systemserverclasspath_fragments: ["com.android.crashrecovery-systemserverclasspath-fragment"],
+}
+
+prebuilt_apex {
+    name: "com.google.android.extservices",
+    apex_name: "com.android.extservices",
+    apps: ["GoogleExtServices"],
+    owner: "google",
+    src: "com.google.android.extservices.apex",
+    overrides: ["com.android.extservices"],
+}
+
+prebuilt_apex {
+    name: "com.google.android.healthfitness",
+    apex_name: "com.android.healthfitness",
+    apps: [
+        "HealthConnectBackupRestoreGoogle",
+        "HealthConnectControllerGoogle",
+    ],
+    owner: "google",
+    src: "com.google.android.healthfitness.apex",
+    overrides: ["com.android.healthfitness"],
+    exported_bootclasspath_fragments: ["com.android.healthfitness-bootclasspath-fragment"],
+    exported_systemserverclasspath_fragments: ["com.android.healthfitness-systemserverclasspath-fragment"],
+}
+
+prebuilt_apex {
+    name: "com.google.android.ipsec",
+    apex_name: "com.android.ipsec",
+    owner: "google",
+    src: "com.google.android.ipsec.apex",
+    overrides: ["com.android.ipsec"],
+    exported_bootclasspath_fragments: ["com.android.ipsec-bootclasspath-fragment"],
+}
+
+prebuilt_apex {
+    name: "com.google.android.media",
+    apex_name: "com.android.media",
+    owner: "google",
+    src: "com.google.android.media.apex",
+    overrides: ["com.android.media"],
+    exported_bootclasspath_fragments: ["com.android.media-bootclasspath-fragment"],
+    exported_systemserverclasspath_fragments: ["com.android.media-systemserverclasspath-fragment"],
+}
+
+prebuilt_apex {
+    name: "com.google.android.media.swcodec",
+    apex_name: "com.android.media.swcodec",
+    owner: "google",
+    src: "com.google.android.media.swcodec.apex",
+    overrides: ["com.android.media.swcodec"],
+}
+
+prebuilt_apex {
+    name: "com.google.android.mediaprovider",
+    apex_name: "com.android.mediaprovider",
+    apps: [
+        "MediaProviderGoogle",
+        "PhotopickerGoogle",
+    ],
+    owner: "google",
+    src: "com.google.android.mediaprovider.apex",
+    overrides: ["com.android.mediaprovider"],
+    exported_bootclasspath_fragments: ["com.android.mediaprovider-bootclasspath-fragment"],
+}
+
+prebuilt_apex {
+    name: "com.google.android.neuralnetworks",
+    apex_name: "com.android.neuralnetworks",
+    owner: "google",
+    src: "com.google.android.neuralnetworks.apex",
+    overrides: ["com.android.neuralnetworks"],
+}
+
+prebuilt_apex {
+    name: "com.google.android.nfcservices",
+    apex_name: "com.android.nfcservices",
+    apps: [
+        "NfcNciApexGoogle",
+        "NfcNciApexMigrationGoogle",
+    ],
+    owner: "google",
+    src: "com.google.android.nfcservices.apex",
+    overrides: ["com.android.nfcservices"],
+    exported_bootclasspath_fragments: ["com.android.nfcservices-bootclasspath-fragment"],
+}
+
+prebuilt_apex {
+    name: "com.google.android.ondevicepersonalization",
+    apex_name: "com.android.ondevicepersonalization",
+    apps: [
+        "FederatedComputeGoogle",
+        "OnDevicePersonalizationGoogle",
+    ],
+    owner: "google",
+    src: "com.google.android.ondevicepersonalization.apex",
+    overrides: ["com.android.ondevicepersonalization"],
+    exported_bootclasspath_fragments: ["com.android.ondevicepersonalization-bootclasspath-fragment"],
+    exported_systemserverclasspath_fragments: ["com.android.ondevicepersonalization-systemserverclasspath-fragment"],
+}
+
+prebuilt_apex {
+    name: "com.google.android.os.statsd",
+    apex_name: "com.android.os.statsd",
+    owner: "google",
+    src: "com.google.android.os.statsd.apex",
+    overrides: ["com.android.os.statsd"],
+    exported_bootclasspath_fragments: ["com.android.os.statsd-bootclasspath-fragment"],
+    exported_systemserverclasspath_fragments: ["com.android.os.statsd-systemserverclasspath-fragment"],
+}
+
+prebuilt_apex {
+    name: "com.google.android.permission",
+    apex_name: "com.android.permission",
+    apps: [
+        "GooglePermissionController",
+        "GoogleSafetyCenterResources",
+    ],
+    owner: "google",
+    src: "com.google.android.permission.apex",
+    overrides: ["com.android.permission"],
+    exported_bootclasspath_fragments: ["com.android.permission-bootclasspath-fragment"],
+    exported_systemserverclasspath_fragments: ["com.android.permission-systemserverclasspath-fragment"],
+}
+
+prebuilt_apex {
+    name: "com.google.android.profiling",
+    apex_name: "com.android.profiling",
+    owner: "google",
+    src: "com.google.android.profiling.apex",
+    overrides: ["com.android.profiling"],
+    exported_bootclasspath_fragments: ["com.android.profiling-bootclasspath-fragment"],
+    exported_systemserverclasspath_fragments: ["com.android.profiling-systemserverclasspath-fragment"],
+}
+
+prebuilt_apex {
+    name: "com.google.android.resolv",
+    apex_name: "com.android.resolv",
+    owner: "google",
+    src: "com.google.android.resolv.apex",
+    overrides: ["com.android.resolv"],
+}
+
+prebuilt_apex {
+    name: "com.google.android.rkpd",
+    apex_name: "com.android.rkpd",
+    apps: ["rkpdapp.google"],
+    owner: "google",
+    src: "com.google.android.rkpd.apex",
+    overrides: ["com.android.rkpd"],
+    exported_systemserverclasspath_fragments: ["com.android.rkpd-systemserverclasspath-fragment"],
+}
+
+prebuilt_apex {
+    name: "com.google.android.scheduling",
+    apex_name: "com.android.scheduling",
+    owner: "google",
+    src: "com.google.android.scheduling.apex",
+    overrides: ["com.android.scheduling"],
+    exported_bootclasspath_fragments: ["com.android.scheduling-bootclasspath-fragment"],
+    exported_systemserverclasspath_fragments: ["com.android.scheduling-systemserverclasspath-fragment"],
+}
+
+prebuilt_apex {
+    name: "com.google.android.sdkext",
+    apex_name: "com.android.sdkext",
+    owner: "google",
+    src: "com.google.android.sdkext.apex",
+    overrides: ["com.android.sdkext"],
+    exported_bootclasspath_fragments: ["com.android.sdkext-bootclasspath-fragment"],
+}
+
+prebuilt_apex {
+    name: "com.google.android.telephonycore",
+    apex_name: "com.android.telephonycore",
+    apps: [
+        "TelecomResourcesGoogle",
+        "TelecomUiGoogle",
+    ],
+    owner: "google",
+    src: "com.google.android.telephonycore.apex",
+    overrides: ["com.android.telephonycore"],
+    exported_bootclasspath_fragments: ["com.android.telephony-bootclasspath-fragment"],
+    exported_systemserverclasspath_fragments: ["com.android.telephony-systemserverclasspath-fragment"],
+}
+
+prebuilt_apex {
+    name: "com.google.android.tethering",
+    apex_name: "com.android.tethering",
+    apps: [
+        "ServiceConnectivityResourcesGoogle",
+        "TetheringGoogle",
+    ],
+    owner: "google",
+    src: "com.google.android.tethering.apex",
+    overrides: ["com.android.tethering"],
+    exported_bootclasspath_fragments: ["com.android.tethering-bootclasspath-fragment"],
+    exported_systemserverclasspath_fragments: ["com.android.tethering-systemserverclasspath-fragment"],
+}
+
+prebuilt_apex {
+    name: "com.google.android.tzdata6",
+    apex_name: "com.android.tzdata",
+    owner: "google",
+    src: "com.google.android.tzdata6.apex",
+    overrides: ["com.android.tzdata"],
+}
+
+prebuilt_apex {
+    name: "com.google.android.uprobestats",
+    apex_name: "com.android.uprobestats",
+    owner: "google",
+    src: "com.google.android.uprobestats.apex",
+    overrides: ["com.android.uprobestats"],
+    exported_bootclasspath_fragments: ["com.android.uprobestats-bootclasspath-fragment"],
+    exported_systemserverclasspath_fragments: ["com.android.uprobestats-systemserverclasspath-fragment"],
+}
+
+prebuilt_apex {
+    name: "com.google.android.uwb",
+    apex_name: "com.android.uwb",
+    apps: ["ServiceUwbResourcesGoogle"],
+    owner: "google",
+    src: "com.google.android.uwb.apex",
+    overrides: ["com.android.uwb"],
+    exported_bootclasspath_fragments: ["com.android.uwb-bootclasspath-fragment"],
+    exported_systemserverclasspath_fragments: ["com.android.uwb-systemserverclasspath-fragment"],
+}
+
+prebuilt_apex {
+    name: "com.google.android.webapp",
+    apex_name: "com.android.webapp",
+    apps: ["WebAppServiceGoogle"],
+    owner: "google",
+    src: "com.google.android.webapp.apex",
+    overrides: ["com.android.webapp"],
+    exported_bootclasspath_fragments: ["com.android.webapp-bootclasspath-fragment"],
+}
+
+prebuilt_apex {
+    name: "com.google.android.wifi",
+    apex_name: "com.android.wifi",
+    apps: [
+        "OsuLoginGoogle",
+        "ServiceWifiResourcesGoogle",
+        "WifiDialogGoogle",
+    ],
+    owner: "google",
+    src: "com.google.android.wifi.apex",
+    overrides: ["com.android.wifi"],
+    exported_bootclasspath_fragments: ["com.android.wifi-bootclasspath-fragment"],
+    exported_systemserverclasspath_fragments: ["com.android.wifi-systemserverclasspath-fragment"],
+}
+
+// Selected by the RELEASE_APEX_CONTRIBUTIONS_* flags in build/release/gms_mainline.
+// The app-only ones have no same-named source module to replace, but must
+// exist because the flags reference them.
+apex_contributions {
+    name: "adbd.google.contributions.prebuilt",
+    api_domain: "com.android.adbd",
+    contents: ["prebuilt_com.google.android.adbd"],
+}
+
+apex_contributions {
+    name: "adservices.google.contributions.prebuilt",
+    defaults: ["adservices-module-sdk.contributions"],
+    api_domain: "com.android.adservices",
+    contents: ["prebuilt_com.google.android.adservices"],
+}
+
+apex_contributions {
+    name: "appsearch.google.contributions.prebuilt",
+    defaults: ["appsearch-sdk.contributions"],
+    api_domain: "com.android.appsearch",
+    contents: ["prebuilt_com.google.android.appsearch"],
+}
+
+apex_contributions {
+    name: "art.google.contributions.prebuilt",
+    defaults: ["art-module-sdk.contributions"],
+    api_domain: "com.android.art",
+    contents: ["prebuilt_com.google.android.art"],
+}
+
+apex_contributions {
+    name: "bluetooth.google.contributions.prebuilt",
+    defaults: ["bt-module-sdk.contributions"],
+    api_domain: "com.android.bt",
+    contents: ["prebuilt_com.google.android.bt"],
+}   
+
+apex_contributions {
+    name: "cellbroadcast.google.contributions.prebuilt",
+    api_domain: "com.android.cellbroadcast",
+    contents: ["prebuilt_com.google.android.cellbroadcast"],
+}
+
+apex_contributions {
+    name: "configinfrastructure.google.contributions.prebuilt",
+    defaults: ["configinfrastructure-sdk.contributions"],
+    api_domain: "com.android.configinfrastructure",
+    contents: ["prebuilt_com.google.android.configinfrastructure"],
+}
+
+apex_contributions {
+    name: "connectivity.google.contributions.prebuilt",
+    defaults: ["tethering-module-sdk.contributions"],
+    api_domain: "com.android.tethering",
+    contents: ["prebuilt_com.google.android.tethering"],
+}
+
+apex_contributions {
+    name: "conscrypt.google.contributions.prebuilt",
+    defaults: ["conscrypt-module-sdk.contributions"],
+    api_domain: "com.android.conscrypt",
+    contents: ["prebuilt_com.google.android.conscrypt"],
+}
+
+apex_contributions {
+    name: "crashrecovery.google.contributions.prebuilt",
+    defaults: ["crashrecovery-sdk.contributions"],
+    api_domain: "com.android.crashrecovery",
+    contents: ["prebuilt_com.google.android.crashrecovery"],
+}
+
+apex_contributions {
+    name: "extservices.google.contributions.prebuilt",
+    api_domain: "com.android.extservices",
+    contents: ["prebuilt_com.google.android.extservices"],
+}
+
+apex_contributions {
+    name: "healthfitness.google.contributions.prebuilt",
+    defaults: ["healthfitness-module-sdk.contributions"],
+    api_domain: "com.android.healthfitness",
+    contents: ["prebuilt_com.google.android.healthfitness"],
+}
+
+apex_contributions {
+    name: "ipsec.google.contributions.prebuilt",
+    defaults: ["ipsec-module-sdk.contributions"],
+    api_domain: "com.android.ipsec",
+    contents: ["prebuilt_com.google.android.ipsec"],
+}
+
+apex_contributions {
+    name: "media.google.contributions.prebuilt",
+    defaults: ["media-module-sdk.contributions"],
+    api_domain: "com.android.media",
+    contents: ["prebuilt_com.google.android.media"],
+}
+
+apex_contributions {
+    name: "mediaprovider.google.contributions.prebuilt",
+    defaults: ["mediaprovider-module-sdk.contributions"],
+    api_domain: "com.android.mediaprovider",
+    contents: ["prebuilt_com.google.android.mediaprovider"],
+}
+
+apex_contributions {
+    name: "neuralnetworks.google.contributions.prebuilt",
+    api_domain: "com.android.neuralnetworks",
+    contents: ["prebuilt_com.google.android.neuralnetworks"],
+}
+
+apex_contributions {
+    name: "nfcservices.google.contributions.prebuilt",
+    defaults: ["nfcservices-module-sdk.contributions"],
+    api_domain: "com.android.nfcservices",
+    contents: ["prebuilt_com.google.android.nfcservices"],
+}
+
+apex_contributions {
+    name: "ondevicepersonalization.google.contributions.prebuilt",
+    defaults: ["ondevicepersonalization-module-sdk.contributions"],
+    api_domain: "com.android.ondevicepersonalization",
+    contents: ["prebuilt_com.google.android.ondevicepersonalization"],
+}
+
+apex_contributions {
+    name: "permission.google.contributions.prebuilt",
+    defaults: ["permission-module-sdk.contributions"],
+    api_domain: "com.android.permission",
+    contents: ["prebuilt_com.google.android.permission"],
+}
+
+apex_contributions {
+    name: "profiling.google.contributions.prebuilt",
+    defaults: ["profiling-module-sdk.contributions"],
+    api_domain: "com.android.profiling",
+    contents: ["prebuilt_com.google.android.profiling"],
+}
+
+apex_contributions {
+    name: "resolv.google.contributions.prebuilt",
+    api_domain: "com.android.resolv",
+    contents: ["prebuilt_com.google.android.resolv"],
+}
+
+apex_contributions {
+    name: "rkpd.google.contributions.prebuilt",
+    defaults: ["rkpd-sdk.contributions"],
+    api_domain: "com.android.rkpd",
+    contents: ["prebuilt_com.google.android.rkpd"],
+}
+
+apex_contributions {
+    name: "scheduling.google.contributions.prebuilt",
+    defaults: ["scheduling-sdk.contributions"],
+    api_domain: "com.android.scheduling",
+    contents: ["prebuilt_com.google.android.scheduling"],
+}
+
+apex_contributions {
+    name: "sdkextensions.google.contributions.prebuilt",
+    defaults: ["sdkextensions-sdk.contributions"],
+    api_domain: "com.android.sdkext",
+    contents: ["prebuilt_com.google.android.sdkext"],
+}
+
+apex_contributions {
+    name: "statsd.google.contributions.prebuilt",
+    defaults: ["statsd-module-sdk.contributions"],
+    api_domain: "com.android.os.statsd",
+    contents: ["prebuilt_com.google.android.os.statsd"],
+}
+
+apex_contributions {
+    name: "swcodec.google.contributions.prebuilt",
+    api_domain: "com.android.media.swcodec",
+    contents: ["prebuilt_com.google.android.media.swcodec"],
+}
+
+apex_contributions {
+    name: "telephonycore.google.contributions.prebuilt",
+    defaults: ["telephony-module-sdk.contributions"],
+    api_domain: "com.android.telephonycore",
+    contents: ["prebuilt_com.google.android.telephonycore"],
+}
+
+apex_contributions {
+    name: "tzdata.google.contributions.prebuilt",
+    api_domain: "com.android.tzdata",
+    contents: ["prebuilt_com.google.android.tzdata6"],
+}
+
+apex_contributions {
+    name: "uprobestats.google.contributions.prebuilt",
+    defaults: ["uprobestats-module-sdk.contributions"],
+    api_domain: "com.android.uprobestats",
+    contents: ["prebuilt_com.google.android.uprobestats"],
+}
+
+apex_contributions {
+    name: "uwb.google.contributions.prebuilt",
+    defaults: ["uwb-module-sdk.contributions"],
+    api_domain: "com.android.uwb",
+    contents: ["prebuilt_com.google.android.uwb"],
+}
+
+apex_contributions {
+    name: "webapp.google.contributions.prebuilt",
+    defaults: ["webapp-module-sdk.contributions"],
+    api_domain: "com.android.webapp",
+    contents: ["prebuilt_com.google.android.webapp"],
+}
+
+apex_contributions {
+    name: "wifi.google.contributions.prebuilt",
+    defaults: ["wifi-module-sdk.contributions"],
+    api_domain: "com.android.wifi",
+    contents: ["prebuilt_com.google.android.wifi"],
+}
